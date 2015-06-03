@@ -11,5 +11,5 @@ Stripper.strip = function(doc, dict){
 };
 
 Stripper.tip = function(dolladollabillyall){
-  console.log('thanks baby');
+  console.log('...thanks baby...');
 }

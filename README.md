@@ -19,12 +19,12 @@ add an array dictionary parameter to your collection called fields.
 Mycollection.fields = ['name', 'status', 'id', 'createdAt', 'updatedAt'];
 ````
 
-use it in a deny or an allow transform or wherever you want
+use it in a deny or an allow transform or wherever or however you want
 
 ````
-doc = Stripper.strip(doc, Mycollection.fields);
+Stripper.strip(doc, Mycollection.fields);
 
 ````
 
-TODOD
-* test inserts and updates all the way through
+TODO
+* updates 
