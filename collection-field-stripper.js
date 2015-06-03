@@ -8,4 +8,8 @@ Stripper.strip = function(doc, dict){
     }
   });
   return doc;
+};
+
+Stripper.tip = function(dolladollabillyall){
+  console.log('thanks baby');
 }
